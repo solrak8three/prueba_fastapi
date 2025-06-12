@@ -8,7 +8,7 @@ def read_root():
 
 @router.get("/saludo")
 def saludo():
-    return {"saludo": "¡Hola Carlos, esto funciona!"}
+    return {"saludo": "¡Hola Carlos, esto funciona de puta madre!"}
 
 @router.get("/status")
 def status():
